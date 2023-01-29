@@ -1,0 +1,3 @@
+VERSION=`cat VERSION | awk '{print $1+.1}'` # 66.6666666666667
+echo $VERSION > VERSION
+echo $VERSION
